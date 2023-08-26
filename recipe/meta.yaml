@@ -1,5 +1,5 @@
 {% set name = "git-remote-codecommit" %}
-{% set version = "1.16" %}
+{% set version = "1.17" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f8e10cc5c177486022e4e7c2c08e671ed35ad63f3a2da1309a1f8eae7b6e69da
+  sha256: fd4a9ba3fbd88cd455a8e2087765e415da0beaae9932d4e84010069a536de24e
 
 build:
   noarch: python
